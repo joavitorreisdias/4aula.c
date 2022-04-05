@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+
+{
+
+    int A, A_B;
+    int B;
+
+    printf("A vale: ");
+    scanf("%d", &A);
+    printf("B vale: ");
+    scanf("%d", &B);
+
+
+
+    A_B = A;
+    A = B;
+    B = A_B;
+
+    printf("A é: %d",A);
+    printf("e B é:%d ",B);
+
+}
